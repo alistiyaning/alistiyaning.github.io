@@ -8,20 +8,71 @@
     <meta name="author" content="Alis Tiyaning Tiyas">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
     <meta name="twitter:site" content="https://alistiyaning.github.io">
+    <!-- unicons -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <!-- css -->
+    <link rel="stylesheet" href="assets/CSS/style.css">
+    <!-- js -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+
 </head>
+    <title>Coba HTML</title>
     <body>
-        <nav> 
-            <ul>
-                <li><a href="#profile">Profile</a></li>
-                <li><a href="#about_me">About Me</a></li>
-                <li><a href="#work_experience">Work Experiences</a></li>
-                <li><a href="#education">Education</a></li>
-                <li><a href="#skill">Skill</a></li>
-                <li><a href="#contact-me">Contact Me</a></li>
-            </ul>
-        </nav>
-        <!-- Profile -->
-        <section id="profile">
+        <!-- header -->
+        <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #f3eeec;">
+            <div class="container">
+            <!-- <img src="assets/img/profil .jpeg" alt="" width="30" height="24"> -->
+              <a class="navbar-brand" href="#home">Alis Tiyaning Tiyas</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#about_me">
+                        <i class="uil uil-user"></i> About
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link " href="#portofolio" >
+                        <i class="uil uil-file-alt"></i> Portofolio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#skill">
+                        <i class="uil uil-constructor"></i> Skills
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#work_experience">
+                        <i class="uil uil-briefcase-alt"></i> Work experience
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#education">
+                        <i class="uil uil-graduation-cap"></i> Education
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#contact-me">
+                        <i class="uil uil-message"></i> Contac Me
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+
+          
+        <!-- jumbotron -->
+        <section class="jumbotron text-center" id="home">
+            <img src="assets/img/profil .jpeg" alt="Alis" width="200" class="rounded-circle img-thumbnail">
+            <h1 class="display-4">Alis Tiyaning Tiyas</h1>
+            <p class="lead">UI/UX Designer | FrontEnd</p>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#b4895b" fill-opacity="1" d="M0,64L16,58.7C32,53,64,43,96,80C128,117,160,203,192,213.3C224,224,256,160,288,144C320,128,352,160,384,144C416,128,448,64,480,48C512,32,544,64,576,106.7C608,149,640,203,672,202.7C704,203,736,149,768,154.7C800,160,832,224,864,234.7C896,245,928,203,960,202.7C992,203,1024,245,1056,224C1088,203,1120,117,1152,85.3C1184,53,1216,75,1248,106.7C1280,139,1312,181,1344,170.7C1376,160,1408,96,1424,64L1440,32L1440,320L1424,320C1408,320,1376,320,1344,320C1312,320,1280,320,1248,320C1216,320,1184,320,1152,320C1120,320,1088,320,1056,320C1024,320,992,320,960,320C928,320,896,320,864,320C832,320,800,320,768,320C736,320,704,320,672,320C640,320,608,320,576,320C544,320,512,320,480,320C448,320,416,320,384,320C352,320,320,320,288,320C256,320,224,320,192,320C160,320,128,320,96,320C64,320,32,320,16,320L0,320Z"></path></svg>
+          </section>
+        
+        <!-- <section id="profile">
         <img src="assets/img/profil .jpeg" width="100px" height="100px" alt="alis tiyaning tiyas">
         <h1>Alis Tiyaning Tiyas</h1>
         <h4>Jl Bangau Jl. Wonocatur No.578, RT.13/RW.26, Karang Bendo, Kec. Banguntapan, Bantul, Daerah Istimewa Yogyakarta 55198</h4>
@@ -35,23 +86,69 @@
                 <a href="https://dribbble.com/alistiya_25" target="blank">Dribble</a>
             </li>
         </ul>
-        </section>
+        </section> -->
+
         <!-- about-me -->
         <section id="about_me">
-            <h1>About Me</h1>
-            <h3>Hello There ! My name is Alis</h3>
-            <h4>
-                <p>Hi, there i'm Alis Tiyaning Tiyas.a currently a student at Universitas Veteran Yogyakarta 
-                    majoring in Information Engineering (Tekhnik Informatika). </p>
-                <p>I focus in completing my final project to get my degree and meanwhile filling the rest of the time exploring matters related 
-                    to infromatics, graphic design as well as front end web developers. <br>I honed my knowledge and 
-                    expertise by participating in various organizations and events on my campus. I also extend my 
-                    knowledge to help friends and relatives in making design and website.
-                </p> 
-            </h4>
+            <div class="container">
+                <div class="row text-center mb-3">
+                    <div class="col">
+                        <h2>About Me</h2>
+                    </div>
+                </div>
+                <div class="row justify-content-center text-center">
+                    <div class="col-6">
+                        <p>Hi, there i'm Alis Tiyaning Tiyas.a currently a student at Universitas Veteran Yogyakarta 
+                            majoring in Information Engineering (Tekhnik Informatika). 
+                        I focus in completing my final project to get my degree and meanwhile filling the rest of the time exploring matters related 
+                            to infromatics, graphic design as well as front end web developers.I honed my knowledge and 
+                            expertise by participating in various organizations and events on my campus. I also extend my 
+                            knowledge to help friends and relatives in making design and website.
+                        </p> 
+                    </div>
+                </div>
+            </div>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#f2ebe9" fill-opacity="1" d="M0,192L18.5,186.7C36.9,181,74,171,111,186.7C147.7,203,185,245,222,229.3C258.5,213,295,139,332,117.3C369.2,96,406,128,443,160C480,192,517,224,554,229.3C590.8,235,628,213,665,192C701.5,171,738,149,775,149.3C812.3,149,849,171,886,192C923.1,213,960,235,997,218.7C1033.8,203,1071,149,1108,117.3C1144.6,85,1182,75,1218,106.7C1255.4,139,1292,213,1329,224C1366.2,235,1403,181,1422,154.7L1440,128L1440,320L1421.5,320C1403.1,320,1366,320,1329,320C1292.3,320,1255,320,1218,320C1181.5,320,1145,320,1108,320C1070.8,320,1034,320,997,320C960,320,923,320,886,320C849.2,320,812,320,775,320C738.5,320,702,320,665,320C627.7,320,591,320,554,320C516.9,320,480,320,443,320C406.2,320,369,320,332,320C295.4,320,258,320,222,320C184.6,320,148,320,111,320C73.8,320,37,320,18,320L0,320Z"></path></svg>
         </section>
-        <!-- work experience -->
-        <section id="work_experience">
+
+        <!-- portofolio -->
+        <section id="portofolio">
+            <div class="container">
+                <div class="row text-center mb-3">
+                    <div class="col">
+                        <h2>My Portofolio</h2>
+                    </div>
+                </div>
+                    <div class="row justify-content-center">
+                        <div class="col-md-4 mb-3">
+                            <div class="card">
+                                <img src="assets/img/APP car rent.png" class="card-img-top" alt="projek 1">
+                                <div class="card-body">
+                                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                </div>
+                              </div>
+                        </div>
+                        <div class="col-md-4 mb-3">
+                            <div class="card" >
+                                <img src="assets/img/SHARE.png" class="card-img-top" alt="projek 2">
+                                <div class="card-body">
+                                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                </div>
+                              </div>
+                        </div>
+                        <div class="col-md-4 mb-3">
+                            <div class="card" >
+                                <img src="assets/img/MacBook - 1.png" class="card-img-top" alt="projek 3">
+                                <div class="card-body">
+                                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                </div>
+                              </div>
+                        </div>
+                    </div>
+            </div>
+        </section>
+        
+        <!-- <section id="work_experience">
             <h1>Work Experience</h1>
             <table border="1">
                 <tr>
@@ -83,9 +180,10 @@
                     <td>7 Month</td>
                 </tr>
             </table>
-        </section>
-        <!-- education -->
-        <section id="education">
+        </section> -->
+
+
+        <!-- <section id="education">
             <h1>Education</h1>
             <h4>Senior High School Ma'arif Udanawu</h4>
             <ul>
@@ -97,9 +195,10 @@
                 <li><h5>Majoring in Informatics Engineering</h5></li>
                 <li><h5>2016</h5></li>
             </ul>
-        </section>
-        <!-- skill -->
-        <section id="skill">
+        </section> -->
+
+        
+        <!-- <section id="skill">
         <h1>Skill</h1>
         <ol>
             <li>HTML</li>
@@ -111,11 +210,56 @@
             <li>Figma</li>
             <li>Adobe XD</li>
         </ol>
-        </section>
+        </section> -->
+
+
         <!-- Contact Me -->
         <section id="contact-me">
-            <h1>Contact</h1>
-            <form>
+        <div class="container">
+            <div class="row text-center mb-3">
+                <div class="col">
+            <h2>Contact Me</h2>
+            <div class="row justify-content-center">
+                <div class="col-md-4">
+                    <form>
+                        <div class="mb-3">
+                          <label for="Fname" class="form-label">First Name</label>
+                          <input type="text" class="form-control" id="Fname" >
+                        </div>
+                        <div class="mb-3">
+                            <label for="Lname" class="form-label">Last Name</label>
+                            <input type="text" class="form-control" id="Lname" >
+                          </div>
+                        <div class="mb-3">
+                            <label for="pesan" class="form-label">text</label>
+                            <textarea class="form-control" id="pesan" rows="3"></textarea>
+                        </div>
+                        <div class="mb-3">
+                            <label for="country" class="form-label">country</label>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="fe" id="indonesia" value="option1" checked>
+                                <label class="form-check-label" for="indonesia">
+                                  Indonesia
+                                </label>
+                              </div>
+                              <div class="form-check">
+                                <input class="form-check-input" type="radio" name="fe" id="malaysia" value="option2">
+                                <label class="form-check-label" for="malaysia">
+                                  Malaysia
+                                </label>
+                              </div>
+                              <div class="form-check">
+                                <input class="form-check-input" type="radio" name="fe" id="india" value="option3">
+                                <label class="form-check-label" for="india">
+                                  India
+                                </label>
+                              </div>
+                        </div>
+                        <button type="submit" class="btn " style="background-color: #b4895b;">Submit</button>
+                      </form>
+                </div>
+            </div>
+            <!-- <form>
                 <label for="firstname">Firstname</label><br> 
                 <input type="text" id="firstname" name="firstname" placeholder="firstname"><br>
                 <label for="lastname">Lastname</label><br>
@@ -130,12 +274,18 @@
                 <label for="description">Description</label><br>
                 <textarea id="description" name="description" rows="4" cols="50" placeholder="Input you'r description"></textarea><br>
                 <input type="submit" value="Submit">
-            </form>
+            </form> -->
+            </div>
+            </div>
+        </div>
         </section>
         <!-- footer -->
-        <footer>
-            <p>Alis Tiyaning Tiyas</p>
-            <a href="mailto:alistiyanng25@gmail.com">Send Email</a>
+        <footer class="bg-light text-center pb-3">
+            <p>Created with <i class="uil uil-heart text-danger"></i>
+             by Alis Tiyaning Tiyas
+            <a href="mailto:alistiyanng25@gmail.com" class="text-white fw-bold">Send Email</a></p>
         </footer>
+        <!-- main JS -->
+        <script src="assets/js/main.js"></script>
     </body>
 </html>
