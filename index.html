@@ -30,7 +30,7 @@
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto">
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#about_me">
+                    <a class="nav-link active" aria-current="page" id="scrollToForm">
                         <i class="uil uil-user"></i> About
                     </a>
                   </li>
@@ -225,6 +225,7 @@
                         <div class="mb-3">
                           <label for="Fname" class="form-label">First Name</label>
                           <input type="text" class="form-control" id="Fname" >
+                          <script src="/assets/js/script.js"></script>
                         </div>
                         <div class="mb-3">
                             <label for="Lname" class="form-label">Last Name</label>
@@ -255,7 +256,7 @@
                                 </label>
                               </div>
                         </div>
-                        <button type="submit" class="btn " style="background-color: #b4895b;">Submit</button>
+                        <button type="submit" class="btn " style="background-color: #b4895b;" value="submit" onclick="myContact()">Submit</button>
                       </form>
                 </div>
             </div>
@@ -286,6 +287,6 @@
             <a href="mailto:alistiyanng25@gmail.com" class="text-white fw-bold">Send Email</a></p>
         </footer>
         <!-- main JS -->
-        <script src="assets/js/main.js"></script>
+        <script src="assets/js/script.js"></script>
     </body>
 </html>
